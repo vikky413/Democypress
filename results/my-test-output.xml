@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.331" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-12-16T10:15:53" tests="0" file="cypress\e2e\1-getting-started\RestApi.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Petstore APi" timestamp="2022-12-16T10:15:53" tests="4" time="3.314" failures="0">
+    <testcase name="Petstore APi Post Users Details - POST" time="2.096" classname="Post Users Details - POST">
+    </testcase>
+    <testcase name="Petstore APi Fetch  Users Details - GET" time="0.404" classname="Fetch  Users Details - GET">
+    </testcase>
+    <testcase name="Petstore APi Updates  Users Details - PUT" time="0.377" classname="Updates  Users Details - PUT">
+    </testcase>
+    <testcase name="Petstore APi Delete Users Details - DELETE" time="0.404" classname="Delete Users Details - DELETE">
+    </testcase>
+  </testsuite>
+</testsuites>
