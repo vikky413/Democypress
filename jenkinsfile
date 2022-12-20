@@ -1,0 +1,15 @@
+pipeline {
+  agent any
+  stages {
+    stage('install npm') {
+      steps {
+        sh 'npm install'
+      }
+    }
+    stage('run cypress') {
+      steps {
+        sh 'npm run test'
+      }
+    }
+  }
+}
