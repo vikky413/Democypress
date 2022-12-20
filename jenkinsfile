@@ -1,11 +1,8 @@
 pipeline {
    agent any
-
-   tools {nodejs "Node12"}
-
+   tools {nodejs "Node18"}
    environment {
-       CHROME_BIN = '/bin/google-chrome'
-      
+       CHROME_BIN = '/bin/google-chrome'  
    }
 
    stages {
