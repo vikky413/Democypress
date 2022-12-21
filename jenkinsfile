@@ -11,7 +11,7 @@ pipeline {
                sh 'npm install -g'
            }
        }
-       stages {
+      
        stage('Dependencies of cypress') {
            steps {
                sh 'npm install -g cypress'
