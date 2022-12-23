@@ -1,7 +1,7 @@
 pipeline {
   agent {
     // this image provides everything needed to run Cypress
-   
+    tools {nodejs "Node16"}
   }
 
   stages {
@@ -9,7 +9,7 @@ pipeline {
 
       steps {
         sh 'npm ci'
-        sh "npm run test:ci:record"
+        sh "npm run test"
       }
     }
   }
