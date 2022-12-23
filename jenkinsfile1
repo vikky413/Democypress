@@ -1,8 +1,5 @@
 pipeline {
-  agent {
-    // this image provides everything needed to run Cypress
-    tools {nodejs "Node16"}
-  }
+  agent any
 
   stages {
     stage('build and test') {
